@@ -3,6 +3,7 @@ from multiprocessing import Pool
 ## exploration and discovery
 try:
     from PriorExperience import insight, serendipity
+    from __future__ import NewTechnology
     my_new_idea = gen_ideas(insight, serendipity, NewTechnology)
 except:
     my_new_idea = copy.copy(somebody_elses_idea)
